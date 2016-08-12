@@ -1,4 +1,4 @@
-# Video Looper
+# /r/Anywhere
 + Turn any subreddit name into a link to that subreddit on any page of the internet.
 
 ## Chrome Users
