@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         /r/Anywhere
+// @namespace    kaloncpu57
+// @version      0.0.1
+// @updateURL    https://kaloncpu57.github.io/reddit-scripts/r-slash-anywhere/main.user.js
+// @description  Change subreddit names into links for their respective subreddits
+// @author       kaloncpu57
+// @match        http://*
+// @match        https://*
+// @include      https://code.jquery.com/jquery-3.1.0.min.js
+// @grant        none
+// ==/UserScript==
+
 var reg = new RegExp(/((\B|\b)\/?r\/[\w\d][\w\d_]{0,20}\b)/g);
 $("body").find("*").not("script, style, a").each(function() {
   var elem = this;
