@@ -7,7 +7,7 @@
 // @author       kaloncpu57
 // @match        http://*
 // @match        https://*
-// @include      https://code.jquery.com/jquery-3.1.0.min.js
+// @require      https://code.jquery.com/jquery-3.1.0.min.js
 // @grant        none
 // ==/UserScript==
 
