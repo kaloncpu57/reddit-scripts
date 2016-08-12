@@ -5,8 +5,8 @@
 // @updateURL    https://kaloncpu57.github.io/reddit-scripts/r-slash-anywhere/main.user.js
 // @description  Change subreddit names into links for their respective subreddits
 // @author       kaloncpu57
-// @match        http://*
-// @match        https://*
+// @match        http://*/*
+// @match        https://*/*
 // @require      https://code.jquery.com/jquery-3.1.0.min.js
 // @grant        none
 // ==/UserScript==
